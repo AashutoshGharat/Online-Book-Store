@@ -1,0 +1,109 @@
+* {box-sizing: border-box; padding:0; margin:0;}
+
+body {font-family: Comic Sans MS, Courier, Arial, Helvetica, sans-serif; margin: 0; background-image:url("");
+background-size:cover;
+background-position:center center;
+background-repeat:no-repeat;
+}
+.main h1{text-align:center; padding:15;}
+
+h6{ padding-left:60px; }
+
+.header {width:100%; float:left; padding: 10px; text-align: center;background-image: url("img/header_bg.png"); color: white; height:150px;}
+
+.logo{
+	width:250px;
+	margin-top:10px;
+	float:left;
+	
+}
+.sitename h1 {font-size: 40px; color:#1abc9c; padding:40px; }
+/*.header h2 {font-size:20px;}
+
+.header span{width:100%; height:100; float:left;}*/
+
+
+.navbar {overflow: hidden; background-color: #333; border:solid 1px;}
+
+.navbar a { float: left; 
+display: block; color: white; text-align: center; padding: 14px 15px; 
+text-decoration: none;}
+
+.navbar a:hover {background-color: #ddd; color: black;}
+
+
+/*.navbar a.right {float: right;}
+
+/* Change color on hover/mouse-over */
+
+
+/*.container{ padding:10px;}
+
+.container::after{content:""; display:block; clear:both;}
+
+.left-panel{width:15%; height:600px; float:left; border:solid;}
+
+.right-panel{ width:85%; height:600px; float:right}
+
+.lists{padding:5px;list-style-type:none;}*/
+
+
+
+.menu {
+    width: 25%;
+    float: left;
+    padding: 25px 20px;
+    /* border: solid; */
+	/* height:100%; */
+	
+}
+.main {
+    width: 75%;
+    float: left;
+    padding: 14px 15px;
+    /* border: solid;
+	/* height:100%; */
+}
+
+.main-Buy{width:100%; height:100%;padding-left:200px; border:solid;}
+
+.list{
+	
+	  list-style-type:none;
+}
+.list li a {
+  border: 1px solid #ddd;
+  margin-top: -1px; /* Prevent double borders */
+  background-color: #f6f6f6;
+  padding: 6px;
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  display: block
+}
+
+.list li a:hover{
+	
+	background-color: #eee;
+}
+
+
+.column {
+  float: left;
+  width: 33.3%;
+  padding: 15px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+img{
+	border:1px solid black;
+	border-radius:5px;
+	padding:5px;
+	
+	
+}
